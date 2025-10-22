@@ -47,7 +47,7 @@ section {
     display: inline-block;
 }
 
-#summit {
+#summitment {
     background-color: green;
     padding: 10px;
     border-radius: 4px;
@@ -65,5 +65,24 @@ width: 96%;
 .list-group {
     display: flex;
     flex-direction: column;
-    border-radius: 3px;
+    
+}
+
+.list-group-item {
+    display: block;
+    position: relative;
+    border: 1px solid lightgray;
+    background-color: white;
+    color: black;
+    padding: 10px;
+
+}
+
+.s1 {
+    font-size: 16pt;
+    font-weight: 300;
+}
+
+.textSmall2 {
+    font-size: 14pt;
 }
