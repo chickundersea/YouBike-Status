@@ -84,5 +84,13 @@ width: 96%;
 }
 
 .textSmall2 {
-    font-size: 14pt;
+    font-size: 12pt;
+    color: gray;
+}
+
+
+.fa-bicycle::before {
+    content: "\f206";
+    font-weight: 800;
+    font-family: "Font Awesome 5 Free";
 }
