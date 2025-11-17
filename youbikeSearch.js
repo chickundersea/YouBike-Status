@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
               const item = `<li class="list-group-item s1">
                 <i class="fas fa-bicycle"></i>
                 ${site.sna.replace("YouBike2.0_", "")}      (${
-                site.available_return_bikes
+                site.available_rent_bikes
               })<br />
                 <span class="textSmall2">${site.ar}</span>
               </li>`;
