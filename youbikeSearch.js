@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
               </li>`;
               bikeList.insertAdjacentHTML("beforeend", item);
             });
-        });
-    }
+       });
+    };
   });
 });
