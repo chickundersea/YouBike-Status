@@ -18,10 +18,11 @@ document.addEventListener("DOMContentLoaded", () => {
             .forEach((site) => {
               const item = `<li class="list-group-item s1">
                 <i class="fas fa-bicycle"></i>
-                ${site.sna.replace("YouBike2.0_", "")}       (${
+                ${site.sna.replace("YouBike2.0_", "")}     <span class="availableAmount">可借數量: ${
                 site.available_rent_bikes
-              })<br />
-                <span class="textSmall2">${site.ar}</span>
+              }</span> 
+              <br />
+              <span class="textSmall2">${site.ar}</span>
               </li>`;
               bikeList.insertAdjacentHTML("beforeend", item);
             });
