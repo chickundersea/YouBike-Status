@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const keyword = document.querySelector("#searchBox");
-  const btn = document.querySelector("#summitment");
+  const btn = document.querySelector("#submission");
   btn.addEventListener("click", () => {
     const request = keyword.value;
 
@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
       fetch(url)
         .then((resp) => resp.json())
         .then((sites) => {
-          const bikelist = document.querySelector(".siteList");
-          bikelist.innerHTML = ""
+          const bikeList = document.querySelector(".siteList");
+          bikeList.innerHTML = ""
           sites
             .filter((site) => site.ar.includes(request))
             .forEach((site) => {
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
               })<br />
                 <span class="textSmall2">${site.ar}</span>
               </li>`;
-              bikelist.insertAdjacentHTML("beforeend", item);
+              bikeList.insertAdjacentHTML("beforeend", item);
             });
         });
     }

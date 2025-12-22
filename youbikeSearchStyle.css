@@ -19,7 +19,7 @@ section {
     font-weight: 300;
 }
 
-.textSmalla {
+.textSmaller {
     font-size: 10pt;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
@@ -37,7 +37,7 @@ section {
     margin: 10px 0;
     line-height: 1.5;
 }
-.searchdiv {
+.searching {
     display: inline-block;
     width: 90%;
     margin-right: 10px;
@@ -47,7 +47,7 @@ section {
     display: inline-block;
 }
 
-#summitment {
+#submission {
     background-color: green;
     padding: 10px;
     border-radius: 4px;
