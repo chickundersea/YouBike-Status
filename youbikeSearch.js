@@ -12,13 +12,13 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((resp) => resp.json())
         .then((sites) => {
           const bikeList = document.querySelector(".siteList");
-          bikeList.innerHTML = ""
+          bikeList.innerHTML = "";
           sites
             .filter((site) => site.ar.includes(request))
             .forEach((site) => {
               const item = `<li class="list-group-item s1">
                 <i class="fas fa-bicycle"></i>
-                ${site.sna.replace("YouBike2.0_", "")}      (${
+                ${site.sna.replace("YouBike2.0_", "")}       (${
                 site.available_rent_bikes
               })<br />
                 <span class="textSmall2">${site.ar}</span>

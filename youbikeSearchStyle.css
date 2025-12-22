@@ -54,6 +54,7 @@ section {
     color: azure;
     font-weight: 300;
     font-size: 22px;
+    cursor: pointer;
 }
 
 hr {
