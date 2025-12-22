@@ -1,8 +1,15 @@
 
 section {
-    width: 70%;
+    width: 80%;
     margin: auto ;
     padding: 20px;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -39,7 +46,7 @@ section {
 }
 .searching {
     display: inline-block;
-    width: 90%;
+    width: 95%;
     margin-right: 10px;
 }
 
@@ -58,7 +65,7 @@ section {
 }
 
 hr {
-width: 96%;
+width: 100%;
  margin: 8px 0;
  color: lightgray;
 }
